@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 
+        android:id="@+id/search_icon"
+        android:icon="@drawable/ic_action_search"
+        android:title="@string/search_title"
+        android:showAsAction="always"
+     />
+    
+     <item 
+        android:id="@+id/overflow_icon"
+        android:icon="@drawable/ic_action_overflow"
+        android:title="@string/overflow_title"
+        android:showAsAction="always">
+     <menu>
+         <item
+        	android:id="@+id/submenu1"
+      		android:title="@string/submenu1_title"
+      		
+       		android:showAsAction="never"/>    
+       	<item
+        	android:id="@+id/submenu2"
+      		android:title="@string/submenu2_title"
+      		
+       		android:showAsAction="never"/>  
+      </menu>
+      </item>
+         
+    
+
+</menu>

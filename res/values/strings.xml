@@ -3,8 +3,12 @@
 
     <string name="app_name">Lista na zakupy</string>
     <string name="action_settings">Settings</string>
-    <string name="edit_message">Enter a message</string>
-    <string name="button_send">Send</string>
+    <string name="edit_message">Podaj nazwę listy</string>
+    <string name="button_send">Utwórz</string>
+    <string name="search_title">Szukaj</string>
+    <string name="overflow_title">Rozwiń</string>
+    <string name="submenu1_title">Zapisz</string>
+    <string name="submenu2_title">Usuń</string>
     
 
 </resources>
